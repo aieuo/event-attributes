@@ -1,0 +1,6 @@
+name: event-attributes
+antigen: aieuo\eventattributes
+version: 0.1.0
+api: [4.0.0]
+author: aieuo
+description: use attribute instead of phpdoc for event handler
