@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/aieuo/event-attributes
+build-by-default: true
+branches:
+- main
+projects:
+  event-attributes:
+    path: ""
+    model: virion
+    type: library
+...
