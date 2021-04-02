@@ -16,7 +16,7 @@ use pocketmine\utils\AssumptionFailedError;
 
 class EventAttributes extends PluginBase {
 
-    public static function registerEvent(Listener $listener, Plugin $plugin): void {
+    public static function registerEvents(Listener $listener, Plugin $plugin): void {
         if(!$plugin->isEnabled()){
             throw new PluginException("Plugin attempted to register " . get_class($listener) . " while not enabled");
         }
